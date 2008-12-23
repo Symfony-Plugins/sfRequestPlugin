@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfRequestPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>Adds get/set Error functionality back into $request</summary>
+ <description>Adds get/set Error functionality back into request object that was previously present in Symfony 1.0 but removed in Symfony 1.1 and Symfony 1.2</description>
+ <lead>
+  <name>Lee BOLDING</name>
+  <user>leesbian</user>
+  <email>lee@php.uk.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-12-23</date>
+ <time>10:30:35</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file role="data" name="README" />
+   <file role="data" name="LICENSE" />
+   <dir name="lib">
+	<file role="data" name="sfHardenedRequest.class.php" />
+	<file role="data" name="sfHardenedWebRequest.class.php" />
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.1.0</min>
+    <max>1.1.9</max>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog />
+</package>
