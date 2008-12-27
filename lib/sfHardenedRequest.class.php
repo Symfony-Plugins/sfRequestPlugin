@@ -91,7 +91,7 @@ abstract class sfHardenedRequest extends sfRequest {
    *
    * @return string An error message, if the error was removed, otherwise null
    */
-  public function & removeError($name)
+  public function removeError($name)
   {
     $retval = null;
 
